@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "cucumber": "^2.0.0-rc.2",
+    "cucumber-html-reporter": "^0.3.7",
+    "express": "^4.14.0",
+    "node-fetch": "^1.6.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "cucumberjs -f json:report.json; node report.js"
+  }
+}
