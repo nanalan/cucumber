@@ -8,11 +8,13 @@ chai.should()
 module.exports = function() {
   let hostname, call
 
+  /*
   this.addTransform({
     captureGroupRegexps: ['[^ ]+'],
     transformer: a => a.toString(),
     typeName: 'str'
   })
+  */
 
   this.Given('I am using the Maths webservice', () => {
     hostname = 'localhost:8000'
