@@ -9,6 +9,6 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "cucumberjs -f json:report.json; node report.js"
+    "test": "node report.js"
   }
 }
